@@ -1,0 +1,17 @@
+==========================================
+           CARTA GERADA AUTOMATICAMENTE         
+==========================================
+
+De: pedro
+Endereço: rua 1
+
+Para: pedro2
+Endereço: rua 2
+
+Data: 2000-01-01
+Assunto: oi
+------------------------------------------
+oioioio
+------------------------------------------
+Atenciosamente,
+pedro

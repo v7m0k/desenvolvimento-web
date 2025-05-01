@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #171515;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.texto {
+    margin: 10px;
+}
+
+.in {
+    margin: 25px;
+}

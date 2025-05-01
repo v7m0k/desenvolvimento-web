@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/writing.png">
+    <title>Gerador de Cartas</title>
+</head>
+<body>
+        <header>
+            <nav class="navbar">
+                <div class="nav-item">
+                    <img src="assets/arthur.jpg" alt="Arthur">
+                    <span class="nav-text">Arthur Henrique (0080/24)</span>
+                </div>
+                <div class="nav-item">
+                    <img src="assets/pedro.jpg" alt="Pedro Ferrari">
+                    <span class="nav-text">Pedro Ferrari (0761/24)</span>
+                </div>
+            </nav>
+        </header>
+
+    <div class="container">
+        <div class="titulo">
+            <h1>Gerador de Cartas</h1>
+        </div>
+        
+    <div class="formulario">
+        <form action="GeraCarta.php" method="POST">
+
+            <label>Nome do Remetente:</label><br>
+            <input type="text" name="remetente" class="dist" placeholder="Digite aqui" required><br><br>
+
+            <label>Nome do Destinatário:</label><br>
+            <input type="text" name="destinatario" class="dist" placeholder="Digite aqui" required><br><br>
+
+            <label>Endereço do Remetente:</label><br>
+            <input type="text" name="endereco_remetente" class="dist" placeholder="Digite aqui" required><br><br>
+
+            <label>Endereço do Destinatário:</label><br>
+            <input type="text" name="endereco_destinatario" class="dist" placeholder="Digite aqui" required><br><br>
+
+            <label>Data:</label><br>
+            <input type="date" name="data" class="dist" required><br><br>
+
+            <label>Assunto:</label><br>
+            <input type="text" name="assunto" class="dist" placeholder="Digite aqui" required><br><br>
+
+            <label>Conteúdo:</label><br>
+            <textarea name="conteudo" rows="5" class="dist" placeholder="Digite aqui" required></textarea><br><br>
+
+            <div class="botao-gerar">
+                <button type="submit" class="botao">Gerar Carta</button>
+            </div>
+        </form>
+    </div>
+
+    <br>
+        <div class="gerar-txt">
+            <a href="ListaCartas.php" class="botao">Ver Cartas Geradas</a
+        </div>
+    </div>
+
+</body>
+</html>

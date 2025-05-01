@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro Aluno</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <nav class="navbar">
+            <div class="nav-item">
+                <img src="/assets/arthur.jpg" alt="Arthur">
+                <span class="nav-text">Arthur Henrique (0080/24)</span>
+            </div>
+            <div class="nav-item">
+                <img src="/assets/pedro.jpg" alt="Pedro Ferrari">
+                <span class="nav-text">Pedro Ferrari (0761/24)</span>
+            </div>
+        </nav>
+    </header>
+<main>
+    <form action="backBD.php" method="post">
+        <div class="container">
+            <div class="nome">
+                <label for="nome">Digite seu nome</label>
+                <input type="text" name="nome" id="nome_id">
+            </div>
+            <div class="sobrenome">
+                <label for="sobrenome">Digite seu sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome_id">
+            </div>
+            <div class="botao">
+                <input type="submit" value="Enviar" class="btn-roxo">
+              </div>
+        </div>
+    </form>
+</main>
+    <footer>
+        <div class="footerContainer">
+            <div class="icones-git">
+                <div class="github-item">
+                  <a href="https://github.com/v7m0k">
+                    <img src="/assets/github.png" alt="GitHub Arthur">
+                  </a>
+                  <p>Arthur</p>
+                </div>
+                <div class="github-item">
+                  <a href="https://github.com/pdr7k">
+                    <img src="/assets/github.png" alt="GitHub Pedro">
+                  </a>
+                  <p>Pedro</p>
+                </div>
+              </div>
+            <div class="footerNav">
+                <p class="footer-label">GitHub</p>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2025 | Arthur e Pedro</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

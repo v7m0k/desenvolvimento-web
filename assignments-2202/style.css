@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+p {
+    color: red;
+    font-size: 26pt;
+}
